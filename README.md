@@ -1,7 +1,19 @@
-# 此为 vuex 学习教程，以分支名的排序代表不同的阶段。
+# vuex-text
 
-|分支名|阶段|
-|---|---|
-|v1.1|上|
-|v1.2|中|
-|v1.3|下|
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

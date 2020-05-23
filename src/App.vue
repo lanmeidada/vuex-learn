@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-<!--    <div id="nav">-->
-<!--      <router-link to="/">Home</router-link> |-->
-<!--      <router-link to="/about">About</router-link>-->
-<!--    </div>-->
     App: {{$store.state.count}}
     <button @click="$store.commit('addCount')">增加</button>
     <button @click="$store.dispatch('addCountAction')">3秒后增加</button>
